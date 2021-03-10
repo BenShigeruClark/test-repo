@@ -5,12 +5,16 @@ h1 {
 
 .gallery {
     margin: 10px 50px;
+    display: flex;
+    padding: 20px;
+    overflow: hidden;
 }
 
 .gallery img {
     transition: 1s;
     padding: 15px;
     height: 250px;
+    /* float: left; */
 }
 
 .gallery img:hover {
@@ -18,12 +22,28 @@ h1 {
     transform: scale(1.05);
 }
 
+figure {
+    /* left: 600px; */
+    background-color: rgb(213, 213, 224);
+    /* display: flex; */
+    flex-flow: column;
+    padding: 5px;
+    max-width: 390px;
+    margin: auto;
+    float: left;
+}
+
+figcaption {
+    text-align: center;
+    padding: 3px;
+}
+
 /* h3 {
     text-align: center;
 } */
 
-/* .bands {
+.bands {
     width: 400px;
     margin: auto;
     text-align: center;
-} */
+}
